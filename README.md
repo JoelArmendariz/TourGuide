@@ -1,5 +1,9 @@
 # ![Imgur](https://i.imgur.com/HwVSdwA.png)
 
+# <p align="center">
+  <img height="500" src="https://i.imgur.com/HwVSdwA.png">
+</p>
+
 ## About
 
 *Tour Guide* is a React-Native application that alows the touring musician to keep the itinerary of each show date in one, easily reference-able place. <br />
