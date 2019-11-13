@@ -7,19 +7,17 @@ import {
   Text,
   StatusBar,
   Button,
-  FlatList
+  FlatList,
+  TouchableHighlight
 } from 'react-native';
-// import { Icon } from 'react-native-elements'
 
 import data from '../../mock-data';
 import Date from './Date'
+import HeaderButton from './HeaderButton'
 
 class HomeScreen extends React.Component {
   static navigationOptions = {
-    title: 'Home',
-    // headerLeft: (
-    //   <Icon name='menu' type='ionicon' />
-    // )
+    headerTitle: 'Home'
   };
   constructor() {
     super()
@@ -30,7 +28,7 @@ class HomeScreen extends React.Component {
   }
 
   navigate() {
-    this.props.navigation.navigate('EventSelect', item)
+    this.props.navigation.navigate('NewShow')
   }
 
   render() {
@@ -38,6 +36,9 @@ class HomeScreen extends React.Component {
       <View style={styles.container}>
         <View style={styles.header}>
           <Text style={styles.text}>Upcoming Shows</Text>
+          <TouchableHighlight onPress={this.navigate} style={styles.headerRightContainer}>
+            <Text style={styles.headerRight}>New Show</Text>
+          </TouchableHighlight>
         </View>
         <View style={styles.listContainer}>
           <FlatList
@@ -57,17 +58,29 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   header: {
-    justifyContent: 'center',
+    justifyContent: 'space-evenly',
     alignItems: 'center',
+    flexDirection: 'row',
     height: 65,
     width: 370,
-    borderColor: '#8FAADE',
-    // borderBottomWidth: 1,
-    // shadowColor: '#000',
-    // shadowOffset: { width: 0, height: 2 },
-    // shadowOpacity: 0.3,
-    // marginTop: 5,
-    // backgroundColor: 'white'
+    borderColor: '#8FAADE'
+  },
+  headerRight: {
+    fontSize: 15,
+    color: '#2F6386'
+  },
+  headerRightContainer: {
+    borderWidth: 1,
+    borderColor: '#2F6386',
+    height: 30,
+    width: 85,
+    borderRadius: 10,
+    marginRight: 25,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  title: {
+    fontSize: 20
   },
   text: {
     fontSize: 30
