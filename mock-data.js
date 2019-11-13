@@ -93,7 +93,7 @@ data = [
     date: 'Nov 13, 2019',
     flight: '',
     event: {
-      address: '99 The White Rabbit st',
+      address: '119 Nueces St',
       showTime: '9:00pm',
       setTime: '1 hour',
       loadIn: '11:00am',

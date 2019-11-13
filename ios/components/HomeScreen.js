@@ -43,7 +43,7 @@ class HomeScreen extends React.Component {
         <View style={styles.listContainer}>
           <FlatList
             data={this.state.dates}
-            renderItem={({item, index}) => <Date navigation={this.props.navigation} date={item}></Date>}
+            renderItem={({item, index}) => <Date key={index.toString()} navigation={this.props.navigation} date={item}></Date>}
           />
         </View>
       </View>

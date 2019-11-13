@@ -104,7 +104,7 @@ class HotelInput extends React.Component {
           </View>
         </Modal>
 
-        <TouchableHighlight style={styles.event} onPress={() => this.props.navigation.navigate('HotelInput')}>
+        <TouchableHighlight style={styles.event} onPress={() => this.props.navigation.navigate('HomeRoute')}>
           <Text onPress={() => this.props.navigation.navigate('HomeRoute')} style={styles.text}>Finish</Text>
         </TouchableHighlight>
       </View>
