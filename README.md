@@ -1,7 +1,5 @@
-# ![Imgur](https://i.imgur.com/HwVSdwA.png)
-
 # <p align="center">
-  <img height="500" src="https://i.imgur.com/HwVSdwA.png">
+  <img height="450" src="https://i.imgur.com/HwVSdwA.png">
 </p>
 
 ## About
