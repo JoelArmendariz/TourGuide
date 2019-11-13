@@ -39,6 +39,4 @@ I developed the following user stories to track deliverables and achieve the Min
 The MVP of the app displays upcoming shows, and allows the user to view all of the details necessary for a successful tour.
 
 ### How the App Works:
-![GIF OF DEMO](https://media.giphy.com/media/Yq8XBJUsoPTHaFkc7p/giphy.gif)
-
-![IMG OF SCHEMA](https://raw.githubusercontent.com/hratx-blue-ocean/blue512/development/db/Schema.png)
+![GIF OF DEMO](https://media.giphy.com/media/Uv375sMbKrRtZmez13/giphy.gif)
