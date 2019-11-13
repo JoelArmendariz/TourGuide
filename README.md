@@ -6,36 +6,14 @@
 
 ## About
 
-*CityScout* is a responsive web app that recommends events to users based on their Google calendar availability. <br />
+*Tour Guide* is a React-Native application that alows the touring musician to keep the itinerary of each show date in one, easily reference-able place. <br />
 
- Events can further be filtered by day selection, inputted times, and category preferences; users can then add an event to their calendar.
+ Each date is organized into flight info, hotel info, and event info. 
  <br />
-
-*CityScout* utilizes a SQL database that aggregates events from multiple event management sources.
-
-## Contributors
-
-[Landon Baker](https://github.com/landon-baker)
-
-[Hadley Crowl](https://github.com/hadleyac)
-
-[Charles Neblett](https://github.com/cnebs)
-
-[Trevor Cannon](https://github.com/VarCannon)
-
-[Chris Fauries](https://github.com/chrisfauries)
-
-[Brendan Davitt](https://github.com/bpdavitt)
-
-[Tyler Stendara](https://github.com/tstendara)
-
-[Gary Blaser](https://github.com/glblaser)
-
-[Justan Human](https://github.com/justanotherhuman)
 
 
 # Tech Stack 
-*CityScout* was built primarily with ReactJS on the front end and Node/Express on the backend. Other key technologies used are listed below: 
+*Tour Guide* was built with React-Native.
 
 ## Technologies
 
@@ -45,7 +23,7 @@
   </tr>
   <tr>
     <td class="subheading">Frontend</td>
-    <td><img src="https://lh3.googleusercontent.com/ZIHOUCCxFaB7NirPhEX4K8cyTPIMvxvdJxpuhjb_qJ_dk-z7qEgD8riaR0ODXzXQZYn23zHpFiwGzxTDT88FTLeUMoPqlIjyLKoL1am8MH5pCoJExjL8SUC8uaeeiAjvQB0_vym6" width="65"/></td> 
+    <td><img src="http://www.nexfaktor.net/wp-repo/uploads/2017/01/logo-react-native.png" width="65"/></td> 
     <td><img src="https://material-ui.com/static/images/material-ui-logo.svg" width="58" style="padding-left: 37px;"/></td>
     <td><img src="https://lh5.googleusercontent.com/pqPRWyCMu39CU4GAERH3XI0fri2uJzMteIV5t-4qAG566IJWdXRABxLjV1jwdVvID-NvFw3USgyM8FXC5w_yAimYz4FY1gVEm96Yd2JQZh-pYl33lHpbOI7-3-uTixqgX1XHRker" width="75"/></td>
     <td></td>
