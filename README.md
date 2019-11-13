@@ -1,4 +1,4 @@
-# ![GIF OF DEMO](https://www.dropbox.com/s/5otplzvp17d69xm/GuitarForProfile.jpg?dl=0)
+# ![GIF OF DEMO](https://imgur.com/a/7eL84n0)
 
 # <p align="center">
   <img width="800" height="500" src="https://i.imgur.com/hlvkYVt.png">
