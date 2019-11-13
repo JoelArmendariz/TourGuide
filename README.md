@@ -1,6 +1,4 @@
-# <p align="center">
-  <img width="800" height="500" src="https://i.imgur.com/HwVSdwA.png">
-</p>
+# ![Imgur](https://i.imgur.com/HwVSdwA.png)
 
 ## About
 
